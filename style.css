@@ -62,15 +62,9 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;  
-  margin-bottom: auto;
-  margin-top: auto;
-  text-align: center;
-  width: 70%;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  position:relative;
+  display: block;
+  height: auto;
+  max-width: 100%;
    
 }
 
@@ -185,7 +179,6 @@ footer hr {
 }
 
 
-/*.Photo,*/
 .grid-1,
 .grid-2,
 .grid-3,
