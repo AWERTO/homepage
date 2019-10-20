@@ -58,11 +58,17 @@ header {
  
 }
 
+#Name{
+  display: block;
+  z-index: 999999;
+}
+
+
 .Photo {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;  
-  display: block;
+  display: inline-block;
   height: auto;
   max-width: 100%;
    
